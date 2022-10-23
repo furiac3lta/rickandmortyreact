@@ -121,9 +121,14 @@ body {
 }
 
 .back-home {
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   font-size: 15px;
+  transition: all .3s ease-in-out; 
+}
+.back-home:hover{
+  color: burlywood;
+  font-size: 25px;
 }
 
 @media (max-width: 768px) {
